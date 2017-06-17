@@ -73,6 +73,10 @@ public class Main {
             logger.info("PERMUTATIONS: This iteration used an avg of RAM usage of " + ramUsage/iterations);
             logger.info("PERMUTATIONS: Time needed is " + totalTime + " (msec)");
             logger.info("-----------------------------------------");
+
+            ramUsage = 0;
+            cpuUsage = 0;
+            iterations = 0;
         }
     }
 }
